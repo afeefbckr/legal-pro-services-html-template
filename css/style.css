@@ -1,0 +1,889 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+    font-family: 'Martel', serif;
+	font-size: 17px;
+	color: var(--dark);
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+    font-family: 'Martel', serif;
+	font-weight: 500;
+}
+
+a{
+	color: var(--dark);
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+    font-family: 'Martel', serif;
+	font-weight: 500;
+	color: var(--dark);
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+#main{
+	
+	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(/images/cover-legel.png ) ;
+	
+	background-size: cover ;
+	
+}
+#main .wrapper{
+	margin: 0 auto;
+	width: 90%;
+}
+#main .wrapper header{
+	display: flex;
+    justify-content: space-between;
+	padding: 20px;
+}
+#main header div.left h1{
+	color: white;
+	font-weight: 700;
+	font-size: 24px;
+	width: 150px;
+
+}
+
+#main header div.right{
+    
+
+}
+#main header div.right ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#main header div.right ul li{
+	margin-left: 10px;
+}
+
+#main header div.icons ul.ico{
+	display: flex;
+}
+#main header div.icons ul.ico li{
+	margin-left: 10px;
+	color: white;
+}
+
+
+#main header div.right ul li:hover a{
+    color: yellow;
+}
+
+#main header div.right ul li a{
+    color: white;
+	font-size: 12px;
+    
+}
+#main div.container{
+	display: flex;
+	
+}
+#main div.container .leftt{
+	padding: 20px;
+	width: 48%;
+	
+	
+
+	
+}
+#main div.container .leftt h1{
+	margin-top: 150px;
+	color: white;
+	font-size: 44px;
+	font-weight: bold;
+}
+#main div.container .leftt p{
+	color: white;
+	font-size: 10px;
+
+}
+#main div.container .leftt button.quote{
+	border: 1px solid orange;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	background-color: orange;
+	color: white;
+}
+#main div.container .leftt button.more{
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 50px;
+	
+	color: white;
+}
+
+#main div.container .rightt{
+	width: 48%;
+	top: 10px;
+	position: relative;
+	
+	
+}
+
+
+#main div.container .rightt img{
+	width: 100%;
+	
+	
+	
+}
+#area{
+	
+	
+	background-color: rgb(17, 112, 88);
+	
+}
+
+
+
+#area div.practice h1{
+text-align: center;
+color: white;
+padding: 40px;
+font-size: 30px;
+
+
+}
+#area div.practice p{
+	text-align: center;
+	color: rgb(238, 227, 227);
+	font-size: 14px;
+}
+#area div.three{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px;
+	
+}
+#area div.three div.one{
+	box-sizing:border-box ;
+	
+	background-color: white;
+	text-align: center;
+	padding: 20px 100px;
+	border-radius: 10px;
+}
+#area div.three div.two{
+	box-sizing:border-box ;
+	
+	background-color: rgb(5, 153, 141);
+	text-align: center;
+	padding: 20px 100px;
+	border-radius: 10px;
+
+	
+}
+#area div.three div.threee{
+	box-sizing:border-box ;
+	
+	background-color: white;
+	text-align: center;
+	padding: 20px 100px;
+	border-radius: 10px;
+
+}
+#area div.three div.threee h2{
+font-size: 20px;
+}
+#area div.three div.one h2{
+font-size: 20px;
+
+
+}
+#area div.three div.two h2{
+	font-size: 20px;
+}
+#advice{
+	
+	
+	background-color: rgb(17, 112, 88);
+	
+}
+#advice .wrapper div.ad{
+	padding: 30px;
+}
+#advice .wrapper div.ad h1{
+text-align: center;
+font-weight: bold;
+
+color:white;
+font-size: 30px;
+}
+#advice div.ad p{
+
+	text-align: center;
+	font-size: 12px;
+	color: white;
+
+}
+
+#advice div.boxes{
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+
+#advice div.boxes div.box1{
+	width: 22%;
+	
+	background-color: white;
+	
+}
+
+
+#advice div.boxes div.box1 img{
+	width: 100%;
+	
+	
+}
+
+#advice div.boxes div.box2{
+	width: 22%;
+	background-color: white;
+
+}
+#advice div.boxes div.box2 img{
+	width: 100%;
+	
+}
+
+#advice div.boxes div.box3{
+	width: 22%;
+	background-color: white;
+
+}
+#advice div.boxes div.box3 img{
+	width: 100%;
+}
+
+#advice div.boxes div.box4{
+	width: 22%;
+	background-color: white;
+
+}
+#advice div.boxes div.box4 img{
+
+	width: 100%;
+}
+#advice div.boxes h1{
+	padding: 5px 20px;
+	font-weight: bold;
+}
+#advice div.boxes p{
+	padding: 5px 20px;
+	color: gray;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+#we{
+	
+	
+	background-color: rgb(17, 112, 88);
+	
+}
+#we .wrapper div.who{
+	padding: 30px;
+}
+
+#we .wrapper div.who h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+#we .wrapper div.who p{
+	text-align: center;
+	color: white;
+	font-size: 15px;}
+
+#we div.play{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#we div.play div.man{
+	position: relative;
+
+}
+#we div.play div.man img.a{
+}
+#we div.play div.man div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 24px;
+	background-color: blue;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#we div.play div.man img.b{
+	
+}
+
+#we div.play div.field{
+	padding: 20px 60px;
+}
+#we div.play div.field h1{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+div.play div.field p{
+	font-size: 15px;
+	color: white;
+}
+div.play div.field h2{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 50px;
+	
+}
+div.play div.field h3{
+	color: white;
+	font-size: 10px;
+	margin-left: 50px;
+}
+div.play div.field img{
+
+}
+
+#get{
+	
+	
+	background-color: rgb(17, 112, 88);
+	
+}
+#get .wrapper{
+}
+#get .wrapper div.touch{
+	
+}
+#get div.touch h1{
+text-align: center;
+color: rgb(255, 255, 255);
+font-weight: bold;
+padding: 40px;
+font-size: 30px;
+
+
+}
+#get div.touch p{
+	text-align: center;
+	color: rgb(238, 227, 227);
+	font-size: 14px;
+}
+#get div.support{
+	display: flex;
+	
+	justify-content: center;
+	
+	padding: 50px 50px;
+	margin-left: 50px;
+}
+#get div.support div.x{
+
+	box-sizing:border-box ;
+	border: 1px solid white;
+	background-color: white;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px 10px;
+	width: 33%;
+	
+	
+}
+#get div.support div.y{
+	
+	box-sizing:border-box ;
+	border: 1px solid rgb(5, 153, 141); 
+	background-color: rgb(5, 153, 141);
+	text-align: center;
+	top: 30px;
+	width: 33%;
+	padding: 20px 10px;
+	
+	
+	
+
+	
+}
+#get div.support div.z{
+	
+	box-sizing:border-box ;
+	border: 1px solid white;
+	background-color: white;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px 10px;
+	width: 33%;
+	
+	
+
+}
+#get div.support h1{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 2px;
+}
+#get div.support h2{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 2px;
+}
+#get div.support h3{
+	font-size: 20px;
+}
+#get div.support button{
+	border: 1px solid black;
+	padding: 6px 12px;
+}
+#get div.support div.y{
+	color: white;
+}
+#last{
+	
+	
+	
+	background-color: rgb(17, 112, 88);
+
+}
+#last .wrapper div.consult{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 20px;
+}
+
+#last div.consult div.free h1{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+#last div.consult div.free h2{
+	font-size: 8px;
+	color: white;
+}
+#last div.contact button{
+	border: 1px solid orange;
+	padding: 8px 16px;
+	border-radius: 5px;
+	color: white;
+	background-color: orange;
+}
+#blocks{
+	
+	
+	background-color: rgb(13, 131, 121);
+}
+
+#blocks .wrapper div.info{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 30px;
+}
+#blocks .wrapper div.info h1{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+#blocks .wrapper div.info h2{
+	color: white;
+	font-size: 15px;
+}
+#blocks .wrapper div.info h3{
+	color: white;
+	font-size: 15px;
+}
+#blocks .wrapper div.info h4{
+	color: white;
+	font-size: 15px;
+}
+#blocks .wrapper div.info h5{
+	color: white;
+	font-size: 15px;
+}
+#blocks div.q{
+	position: relative;
+}
+#blocks div.q span{
+	font-size: 15px;
+	position: relative;
+	margin-left: 10px;
+	bottom: 10px;
+}
+#finalpage{
+	
+	
+	background-color: rgb(17, 112, 88);
+
+
+}
+#finalpage .wrapper div.end{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+#finalpage div.tegrand h1{
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+}
+@media all and (max-width:980px){
+div.three{
+	justify-content: center;
+}
+#advice .wrapper div.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	
+	width: 48%;
+}
+#main header div.right ul {
+	display: none;
+}
+}
+
+
+
+@media all and (max-width:768px){
+
+#main header div.right{
+	right: 100px;
+	position: relative;
+}
+
+
+
+#main header div.right ul li{
+	margin-left: 10px;
+}
+div.container .rightt{
+	width: 47%;
+}
+div.three{
+	display: block;
+	flex-wrap: wrap;
+	width: 100%;
+}	
+#advice div.boxes{
+	display: block;
+	flex-wrap: wrap;
+	width: 45%;
+}
+div.play div.man{
+	width: 120%;}
+
+div.play div.man img.a{
+	width: 100%;
+	margin-top: 60px;
+}
+div.play div.field{
+	width: 100%;}
+div.play div.field h1{
+	font-size: 10px;
+}
+div.play div.field p{
+	font-size: 8px;
+}
+div.play div.field h2{
+	font-size: 10px;
+	bottom: 35px;
+	position: relative;
+}
+div.play div.field h3{
+	bottom: 30px;
+	position: relative;
+}
+div.support img{
+	width: 20%;
+	
+}
+div.support h1{
+	font-size: 10px;
+}
+div.support h2{
+	font-size: 10px;
+}
+div.support h3{
+	font-size: 10px;
+	bottom: 20px;
+	position: relative;
+}
+div.support button{
+	padding: 1px 2px;
+	bottom: 15px;
+	position: relative;
+}
+#blocks div.info h2{
+	font-size: 5px;
+}
+div.container{
+	
+}
+div.container .leftt{
+	
+}
+div.container .leftt h1{
+	font-size: 24px;
+
+}
+}
+@media all and (max-width:640px){
+div.container .leftt{
+	margin: 0 auto;
+}
+div.container .leftt button.more{
+	margin-top: 10px;
+}
+div.container .rightt{
+	
+}
+div.play div.man div{
+	top: 120px;
+	
+}
+#blocks .wrapper div.info{
+	display: block;
+	flex-wrap: wrap;
+}
+
+}
+
+
+
+@media all and (max-width:480px){
+	#main header div.right ul{
+		display: none;
+	}
+	div.container .leftt{
+		
+		text-align: center;
+		
+	}
+	div.container{
+		display: block;
+		flex-wrap: wrap;
+	}
+	div.container .rightt{
+		margin: 0 auto;
+	}
+	div.container .leftt p{
+		margin-top: 30px;
+	}
+	div.container .leftt button.more{
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+		
+	}
+	div.three div.two{
+		margin-top: 20px;
+	}
+	div.three div.threee{
+		margin-top: 20px;
+	}
+	#advice div.boxes{
+		margin: 0 auto;
+	}
+	#advice div.boxes div.box1{
+		margin: 0 auto;
+		
+		
+		margin-top: 30px;
+		right: 35px;
+		position: relative;
+	}
+	#advice .wrapper div.ad p{
+		margin-top: 30px;
+	}
+	#advice div.boxes div.box2{
+		margin: 0 auto;
+		
+		
+		margin-top: 30px;
+		right: 35px;
+		position: relative;
+	}
+	#advice div.boxes div.box3{
+		margin: 0 auto;
+		
+		
+		margin-top: 30px;
+		right: 35px;
+		position: relative;
+	}
+	#advice div.boxes div.box4{
+		margin: 0 auto;
+		
+		
+		margin-top: 30px;
+		right: 35px;
+		position: relative;
+	}
+	#we .wrapper div.who h1{
+		padding: 50px;
+	}
+	#we .wrapper div.who p{
+		margin-top: 10px;
+		width: 50%;
+		margin: 0 auto;
+	}
+	div.play{
+		display: block;
+		flex-wrap: wrap;
+	}
+	div.play div.man{
+		width: 80%;
+		margin: 0 auto;
+	}
+	div.play div.field h1{
+		font-size: 30px;
+	}
+	div.touch p{
+		width: 50%;
+		margin: 0 auto;
+	}
+	div.support div.y{
+		margin-top: 20px;
+	}
+	div.support div.x{
+		margin-top: 20px;
+	}
+
+	div.support{
+		display: block;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0 auto;
+	}
+	div.support h1{
+		font-size: 7px;
+	}
+	div.support h2{
+		font-size: 6px;
+	}
+	#last .wrapper div.consult{
+		display: block;
+		
+		flex-wrap: wrap;
+		margin: 0 auto;
+		align-items: center;
+		text-align: center;
+	}
+	div.consult div.free h1{
+		font-size: 30px;
+	}
+	div.consult div.free h2{
+		margin-top: 10px;
+	}
+	div.contact button{
+		margin-top: 20px;
+	}
+	#blocks .wrapper div.info{
+		display: block;
+		flex-wrap: wrap;
+	}
+	#blocks .wrapper div.info h1{
+		margin-top: 20px;
+	}
+	#finalpage .wrapper div.end{
+		display: block;
+		flex-wrap: wrap;
+	}
+	div.tegrand h1{
+		margin-top: 20px;
+	}
+	div.media{
+		margin-top: 20px;
+
+	}
+	#main header div.icons ul.ico{
+		display: flex;
+		
+	}
+	#main header div.icons ul.ico li{
+		margin-left: 20px;
+		color: white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+	
+	
+	
+		
+	
+
+
+	
+	
+	
